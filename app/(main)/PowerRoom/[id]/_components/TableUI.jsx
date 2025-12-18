@@ -25,7 +25,7 @@ const TableUI = () => {
                         <TableRow className="bg-primary text-white">
                             <TableHead className="text-center min-w-[100px]">DATE</TableHead>
                             <TableHead className="text-center min-w-[100px]">TIME</TableHead>
-                            <TableHead className="text-center min-w-[100px]">KW</TableHead>
+                            <TableHead className="text-center min-w-[100px]">KWH</TableHead>
                         </TableRow>
                     </TableHeader>
                 </Table>

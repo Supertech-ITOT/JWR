@@ -11,7 +11,7 @@ const stat = [
 
     {
         label: "Total Power",
-        value: "254.66 Kw", category: "energy",
+        value: "254.66 Kwh", category: "energy",
         icon: <Leaf className="size-6" style={{ color: "#166534" }} />,
         color: "#E9FBEF"
     },
