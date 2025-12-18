@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { room, tableData } from "@/constant/model";
 import { useFilter } from "@/context/FilterContext";
-import { BatteryCharging, Cloud, Thermometer, Zap } from "lucide-react";
+import { Cloud, Thermometer } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
