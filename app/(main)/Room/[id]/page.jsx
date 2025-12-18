@@ -1,12 +1,10 @@
 "use client";
-
 import { Button } from "@/components/ui/button";
 import { room, tableData } from "@/constant/model";
 import { useFilter } from "@/context/FilterContext";
 import { Cloud, Thermometer } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
-
 const RoomPage = () => {
     const pathname = usePathname();
     const router = useRouter();
